@@ -124,7 +124,7 @@
 	// 0 is the start, whereas 1 i the end of each panel.
 	// If you want to put the legend on the left, then use 0.
 	// legendY = 0.5 puts the legend in the middle of the Y Axis.
-	var legendX = 0.84, legendY = 0.5
+	var legendX = 0, legendY = 0.5
 
 	// id attribute and the name attribute to be used in the tooltip
 	var idAttribute = 'GEOID10', nameAttribute = 'GEOID10';
@@ -140,9 +140,9 @@
 	// Check this link on how to specify the desired format:
 	// https://observablehq.com/@d3/d3-format
 	var att1 = 'Male', att1alias = '% SNAP Benefits', att1format = '.0f',
-	var att2 = 'Female', att2alias =  '% Kids 0-17', att2format = '.0f',
-	var att3 = 'Total_Person_of_Color', att3alias = '% Seniors 65+', att3format = '.0f',
-	var att4 = 'POP_UNDER_18', att4alias = 'Poverty Rate', att4format = '.0f';
+att2 = 'Female', att2alias =  '% Kids 0-17', att2format = '.0f',
+att3 = 'Total_Person_of_Color', att3alias = '% Seniors 65+', att3format = '.0f',
+att4 = 'POP_UNDER_18', att4alias = 'Poverty Rate', att4format = '.0f';
 
   // enter below all variables that should be normalized. If you would like to multiple the variables
 	// with a constant value enter them in multiplyBy array. If there is no need for multiplication,
